@@ -1,0 +1,13 @@
+package com.apigteway.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FallbackController {
+	
+	public String userServiceFallback() {
+		return "User Service is Down currently!";
+		
+	}
+
+}
